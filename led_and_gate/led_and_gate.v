@@ -1,5 +1,7 @@
 // Flash LED if AND Gate is true.
 
+`timescale 1 ns / 1ns
+
 module led_and_gate (
     input SW1,
     input SW2,

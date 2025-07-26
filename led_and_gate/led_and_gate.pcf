@@ -1,9 +1,0 @@
-# Flash LED if AND Gate is true.
-# Pinout: https://alhambrabits.com/wp-content/uploads/2018/09/Alhambra-II.pdf
-
-# User LEDs
-set_io LED0 45 # Output
-
-# User push buttons
-set_io SW1 34 # Input
-set_io SW2 33 # Input

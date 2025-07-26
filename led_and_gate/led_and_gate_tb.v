@@ -2,7 +2,9 @@
 
 module led_and_gate_tb;
     reg SW1, SW2;
+    /* verilator lint_off UNUSEDSIGNAL */
     wire LED0;
+    /* verilator lint_on UNUSEDSIGNAL */
 
     led_and_gate uut (
         .SW1 (SW1),
